@@ -19,4 +19,8 @@ public void setType(int type) {
 public String toString() {
 	return "Chip [id=" + id + ", type=" + type + "]";
 }
+
+
+
+
 }
