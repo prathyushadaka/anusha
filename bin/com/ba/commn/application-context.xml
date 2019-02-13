@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<bean id="robot" class="com.ba.beans.Robot" autowire="constructor">
+</bean>
+
+<bean id="chip" class="com.ba.beans.Chip">
+<property name="id" value="123"></property>
+<property name="type" value="1"></property>
+</bean>
+
+<bean id="sensor" class="com.ba.beans.Sensor">
+<property name="id" value="321"></property>
+<property name="range" value="good"></property>
+</bean>
+
+</beans>
